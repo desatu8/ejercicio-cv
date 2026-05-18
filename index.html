@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Web CV</title>
+
+	<link rel="stylesheet" href="estilos.css">
+	
+	</head>
+
+
+<body>
+
+<header class="cabecera-web">
+
+<button class="menu-toggle">
+	<span></span>
+	<span></span>
+	<span></span>
+</button>
+	
+
+  <nav class="cabecera-nav">
+      <ul class="cabecera-menu">
+          <li><a href="#sobre mi">Sobre mí</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contacto">Contacta conmigo</a></li>
+      </ul>
+  </nav>
+
+</header>
+
+
+
+<main>
+
+	<section class="section-portada">
+		<h1 class="sara-nombre">Jane Doe</h1>
+		<hr class="separador">
+		
+		<p class="descripcion">Desarrollo web, Diseño gráfico y fotografía</p>
+	</section>
+
+
+	<section id="sobre mi"class="sobre-mi">
+		<h2 class="sobre-mi-titulo"> Sobre mí </h2>
+		<hr class="separador">
+		
+		<img src="img/about.jpg" class="fotomia" alt="texto alternativo">
+		
+		<p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit lobortis leo, sed commodo sem fermentum vitae. Morbi condimentum purus vitae leo euismod, ut dapibus mauris convallis. Etiam quis mi vel mi lobortis vulputate ultrices eu dolor. Suspendisse sit amet scelerisque massa. Donec felis odio, aliquet a nisl vitae, molestie molestie erat. Duis sed gravida ex. </p>
+		<p class="p1">Nunc pulvinar scelerisque massa, eu scelerisque neque maximus consequat. Phasellus consequat neque vel accumsan feugiat. Phasellus diam arcu, auctor et tempus vitae, iaculis nec metus. Nullam porta felis massa, quis elementum felis mattis quis. Aenean sed nisl efficitur, venenatis risus sit amet, commodo leo. Proin vel est eu dui dictum imperdiet sed eu arcu.
+		</p>
+		
+		<a href="acerca-del-alma-Aristoteles.pdf" download  class="descargar">Descargar cv</a>
+		
+	</section>
+
+
+	<section id="portfolio" class="sec-portofolio">
+		<h2  class="portfolio">Portfolio</h2>
+		<hr class="separador">
+		
+		<ul class="listado-imagenes">
+				<li><img src="img/portfolio/01-small.jpg" alt=""></li>
+				<li><img src="img/portfolio/02-small.jpg" alt=""></li>
+				<li><img src="img/portfolio/03-small.jpg" alt=""></li>
+				<li><img src="img/portfolio/04-small.jpg" alt=""></li>
+				<li><img src="img/portfolio/05-small.jpg" alt=""></li>
+				<li><img src="img/portfolio/06-small.jpg" alt=""></li>
+				<li><img src="img/portfolio/07-small.jpg" alt=""></li>
+				<li><img src="img/portfolio/08-small.jpg" alt=""></li>
+				<li><img src="img/portfolio/09-small.jpg" alt=""></li>
+				<li><img src="img/portfolio/10-small.jpg" alt=""></li>
+				<li><img src="img/portfolio/11-small.jpg" alt=""></li>
+				<li><img src="img/portfolio/12-small.jpg" alt=""></li>
+			</ul>
+	</section>
+
+
+	<section id="contacto" class="sec-contacto">
+		<h2 class="contacto">Contacta conmigo</h2>
+		<hr class="separador">
+			 <form class="contacto-form" name="fcontacto" action="index.html" method="post">
+					<div class="nombre-email">  
+						  <p class="p2">
+							  <label for="fnombre">Nombre</label>
+							  <input type="text" name="fnombre" id="fnombre" placeholder="tu nombre...">
+						  </p>
+						  <p class="p2">
+							  <label for="femail">Email</label>
+							  <input type="email" name="femail" id="femail" placeholder="tu email...">
+						  </p>
+					 </div>
+					  
+					  
+					<div class="nombre-mensaje">  
+					  <p class="p2" >
+						  <label for="fmensaje">Mensaje:</label>
+						  <textarea name="fmensaje" id="fmensaje" placeholder="tu mensaje..."></textarea>
+					  </p>
+					</div>
+					
+					
+					  <input type="submit" value="Enviar mensaje">
+					
+
+
+				</form>
+				
+		
+		<ul class="listado-redes">
+				<li><a href="#"><img src="img/redes/redes-editadas/behance.png" alt="facebook"></a></li>
+				<li><a href="#"><img src="img/redes/redes-editadas/facebook.png" alt="facebook"></a></li>
+				<li><a href="#"><img src="img/redes/redes-editadas/twitter.png" alt="facebook"></a></li>
+		</ul>
+			
+	</section>
+
+</main>
+
+	<footer class="pie-web">
+
+	  <p class="copyright">Copyright &copy Jane Doe</p>
+
+	</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
